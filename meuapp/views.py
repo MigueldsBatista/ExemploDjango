@@ -6,6 +6,7 @@ from django.http import HttpResponse
 
 class SightView(View):
     def get(self, request):
+        
         ctx = {
             'user': 'Paulo'
             }
